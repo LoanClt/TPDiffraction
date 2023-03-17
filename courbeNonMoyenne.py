@@ -22,3 +22,50 @@ plt.title("Valeurs du niveau de gris des pixels")
 plt.xlabel("Pixels n")
 plt.ylabel("Niveau de gris")
 plt.plot()
+
+
+
+\begin{figure}[!htb]
+   \begin{minipage}{0.65\textwidth}
+     \centering
+     \includegraphics[width=.5\linewidth]{disque1mm}
+     \caption{Disque à $a = 1$mm}\label{Fig:Data1}
+   \end{minipage}\hfill
+   \begin{minipage}{0.45\textwidth}
+     \centering
+     \includegraphics[width=0.7\linewidth]{disque2mm}
+     \caption{Disque à $a = 2$mm}\label{Fig:Data2}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]
+   \begin{minipage}{0.65\textwidth}
+     \centering
+     \includegraphics[width=.5\linewidth]{disque3mm}
+     \caption{Disque à $a = 3$mm}\label{Fig:Data1}
+   \end{minipage}\hfill
+   \begin{minipage}{0.45\textwidth}
+     \centering
+     \includegraphics[width=0.7\linewidth]{disque5mm}
+     \caption{Disque à $a = 5$mm}\label{Fig:Data2}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]
+   \begin{minipage}{0.65\textwidth}
+     \centering
+     \includegraphics[width=.5\linewidth]{disque10mm}
+     \caption{Disque à $a = 10$mm}\label{Fig:Data1}
+   \end{minipage}\hfill
+   \begin{minipage}{0.45\textwidth}
+     \centering
+     \includegraphics[width=0.8\linewidth]{disque20mm}
+     \caption{Disque à $a = 20$mm}\label{Fig:Data2}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+	\includegraphics[width=1\linewidth]{histo2mmDisque}
+    \caption{Histogramme des nuances de gris pour la figure de diffraction associée au disque à  $a=2$mm }
+\end{figure}
